@@ -63,11 +63,15 @@
     </div>
     <form action='/predict' method='POST'>
 <div class="mb-3">
+  <label for="exampleFormControlInput1" class="form-label">Enter ApplicantIncome</label>
+  <input type="text" class="form-control" id="name" name="name" placeholder="name">
+</div>
+<div class="mb-3">
   <label for="exampleFormControlInput1" class="form-label"> gender</label>
-  <select class="form-select" id="gender" name="gender" aria-label="Default select example">
-  <option selected>-- select gender --</option>
-  <option value="Male">Male</option>
-  <option value="Female">Female</option>
+  <select class="form-select" id="type" name="type" aria-label="Default select example">
+  <option selected>-- select donation type --</option>
+  <option value="food">Male</option>
+  <option value="money">Female</option>
 </select>
 </div>
 <div class="mb-3">
